@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    }
+ul, p, h1, h3, a   {
+    color: white;
+}
+img {
+    float: right;
+  }
