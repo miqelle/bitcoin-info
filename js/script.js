@@ -1,12 +1,7 @@
-var bitQuestion = prompt("How old are you?");
-console.log(bitQuestion);
+function askQuestion() {
+var bitcoinPrice = window.prompt("How much does 1 Bitcoin cost?");
+if (bitcoinPrice >= 33,448.90); 
+window.alert("That is correct!");
+} 
 
-if (bitQuestion >= 18){
-    alert("Welcome, I will teach you about bitcoin!");
-}
-else if (bitQuestion <=18){
-alert("You have been granted access.");
-}
-else {
-    alert("You're in the right place !");
-}
+askQuestion('Price');

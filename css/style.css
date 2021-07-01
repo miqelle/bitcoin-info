@@ -8,11 +8,8 @@ ul, p, h1, h3, a   {
 img {
     float: right;
     }
-ul, p, h1 {
+ul, p, h1, button{
     background-color: white;
     color: black;
 }
-  </style>
-  </head>
-  <body>
   
