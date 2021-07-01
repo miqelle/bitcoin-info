@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(7, 9, 104);
     font-family: 'IBM Plex Mono', monospace;
     }
 ul, p, h1, h3, a   {
@@ -8,15 +8,10 @@ ul, p, h1, h3, a   {
 img {
     float: right;
     }
-h3, a {
-     color: black;
- }
- p, ul {
-     background-color: rgb(27, 27, 100);
- }
- h1    {
-     background-color: red;
- }
+ul, p, h1 {
+    background-color: white;
+    color: black;
+}
   </style>
   </head>
   <body>
