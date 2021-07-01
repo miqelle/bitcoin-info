@@ -1,5 +1,5 @@
 body {
-    background-color: #0C3A5C;
+    background-color: white;
     font-family: 'IBM Plex Mono', monospace;
     background-image: ;
     }
@@ -10,10 +10,12 @@ img {
     float: right;
     }
 
-h1, p , ul {
-    background-color: #66B5EE;
-}
- 
+ h1, p, ul {
+     background-color: #202731;
+ }
+ h3, a {
+     color: black;
+ }
   </style>
   </head>
   <body>

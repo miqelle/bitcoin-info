@@ -8,5 +8,5 @@ else if (bitQuestion <=18){
 alert("You have been granted access.");
 }
 else {
-    alert("You're in the right place");
+    alert("You're in the right place !");
 }
