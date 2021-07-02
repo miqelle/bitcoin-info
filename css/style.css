@@ -2,7 +2,7 @@ body {
     background-color: rgb(7, 9, 104);
     font-family: 'IBM Plex Mono', monospace;
     }
-ul, p, h1, h3, a   {
+ul, p, h1, h3, a, form   {
     color: white;
 }
 img {

@@ -1,7 +1,7 @@
-function askQuestion() {
-var bitcoinPrice = window.prompt("How much does 1 Bitcoin cost?");
-if (bitcoinPrice >= 33,448.90); 
-window.alert("That is correct!");
-} 
-
-askQuestion('Price');
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "33,394.90") {
+      alert("Great job that is correct!");
+      return false;
+    }
+  }
