@@ -14,11 +14,18 @@
 
 <body>
   <h1>Bitcoin</h1>
-  <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
-    Bitcoin Price: <input type="text" name="fname" placeholder="Bitcoin Price" >
-    <input type="submit" value="Submit">
-  </form>
   <img src="https://images.unsplash.com/photo-1518546305927-5a555bb7020d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80">
+  <form>
+    Select your favorite cryptocurrency:
+    <select id="myList" onchange="myFunction()">
+      <option>Bitcoin</option>
+      <option>Ethereum</option>  
+      <option>Dogecoin</option>
+      <option>Polkadot</option>
+      <option>Ripple</option>
+    </select>
+  <p>Your favorite cryptocurrency is: <input type="text" id="demo" size="20"></p>
+  </form>
   <h3>3 quick facts about Bitcoin:</h3>
   <ul>
     <li>Bitcoin (₿) is a decentralized digital currency.</li>
