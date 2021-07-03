@@ -15,7 +15,8 @@ function askQuestion(){
 
 askQuestion();
 
+
 var amount = prompt("How many Bitcoins would you like?");
 for(let i = 0; i < amount; i++){
-    document.write("<h1><img src='https://resizeimage.net/viewimg/o3usLSqqawM3zJng/Qi3KP/bitcoin.jpg'><h1>"); 
+    document.write("<img src='https://images.mktw.net/im-280029?width=620&size=1.5023474178403755'>"); 
 }
